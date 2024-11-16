@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+
+body {
+    font-family: 'SUSE', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.icon:hover {
+    color: #6C9A8B;
+}
+
+.button {
+    font-size: large;
+}
+
+header {
+    background-color: #6C9A8B;
+    color: #FBF7F4;
+    height: 90px;
+    display: flex;
+}
+
+header h1 {
+    flex: 20;
+    padding: 0px 10px 10px 20px;
+}
+
+nav {
+    flex: 80;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+}
+
+nav a {
+    color: #FBF7F4;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #6C9A8B;
+    text-decoration: none;
+    background-color: #EED2CC;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+}
+
+hero {
+    background-color: #E8998D;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+hero h2 {
+    color: #FBF7F4;
+    margin: 1px;
+}
+
+hero p {
+    color: #FBF7F4;
+    margin: 0px;
+}
+
+.cta {
+    padding: 10px;
+    margin: 2px;
+}
+
+.btn-cta {
+    background-color: #EED2CC;
+    color: #6C9A8B;
+    padding: 8px 15px 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#about {
+    display: flex;
+    border: 1px solid #EED2CC;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.about-left {
+    flex: 50%;
+    padding-left: 10px;
+}
+
+.about-right {
+    flex: 50%;
+    padding-left: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    gap: 5;
+    border: 1px solid #E8998D;
+    margin: 30px;
+}
+
+.skills-left {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.skills-right {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+#progress {
+    background-color: #EED2Cc;
+}
+
+#progress > div {
+    background-color: #E8998D;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    color: #FBF7F4;
+}
+
+#education {
+    display: flex;
+    gap: 5;
+    border: 1px solid #E8998D;
+    margin: 30px;
+}
+
+.education-left {
+    flex: 30;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: #6C9A8B;
+}
+
+.education-right {
+    flex: 70;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#contact {
+    display: flex;
+    gap: 6;
+    border: 1px solid #EED2CC;
+    margin: 30px;
+}
+
+.left-contact {
+    flex: 50;
+    padding: 5px 0px 8px 5px;
+}
+
+.left-contact input {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EED2Cc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.left-contact textarea {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EED2Cc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-btn {
+    width: 100%;
+    background-color: #E8998D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #EED2Cc;
+    color: #E8998D;
+}
+
+.left-contact input[type=submit]:hover {
+    background-color: #EED2CC;
+    color: black;
+}
+
+.right-contact {
+    flex: 50;
+    padding: 5px 15px 10px 15px ;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8998D;
+    align-items: center;
+    justify-content: center;
+}
+
+.sosmed {
+    color: #cccccc;
+    font-size: 30px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.sosmed:hover {
+    color: #6C9A8B;
+}
+
+footer h3 {
+    font-size: 20px;
+    color: #FBF7F4;
+    margin: 2px;
+    padding: 3px;
+}
+
+footer p {
+    color: #FBF7F4;
+    margin: 2px;
+    padding: 3px;
+}
