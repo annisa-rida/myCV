@@ -279,4 +279,13 @@ footer p {
         gap: 8px;
         text-align: center;
     }
+    #about {
+        flex-direction: column;
+    }
+    #skills {
+        flex-direction: column;
+    }
+    #contact {
+        flex-direction: column;
+    }
 }
