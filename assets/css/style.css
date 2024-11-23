@@ -259,3 +259,10 @@ footer p {
     margin: 2px;
     padding: 3px;
 }
+
+/*media query*/
+@media screen and (max-width: 768px){
+    h1 {
+        display: none;
+    }
+}
