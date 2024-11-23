@@ -268,7 +268,9 @@ footer p {
     header h1 {
         display: none;
     }
-    header nav {
+    nav {
         text-align: center;
+        flex-wrap: wrap;
+        column-gap: 2rem;
     }
 }
