@@ -273,4 +273,10 @@ footer p {
         flex-wrap: wrap;
         column-gap: 2rem;
     }
+    .cta {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
