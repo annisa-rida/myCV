@@ -288,4 +288,7 @@ footer p {
     #contact {
         flex-direction: column;
     }
+    #education {
+        flex-direction: column;
+    }
 }
